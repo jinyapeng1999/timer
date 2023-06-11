@@ -1,5 +1,7 @@
 #include "StopWatch.h"
 
+
+
 #if defined(_MSC_VER) || defined(__MINGW32__) || defined(WIN32)
 StopWatch::StopWatch():elapsed_(0)
 {
